@@ -36,7 +36,7 @@ Frontend: Contains the frontend code built with React.
 Backend: Contains the backend code built with Node.js and Express.
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-**PREREQUISITES: **
+**PREREQUISITES:**
 
 Node.js and npm installed.
 
