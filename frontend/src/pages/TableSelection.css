@@ -1,0 +1,35 @@
+.table-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.table {
+  height: 100px;
+  background-color: #4caf50; /* default: available */
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.table:hover {
+  transform: scale(1.05);
+}
+
+.reserved {
+  background-color: #f44336;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: #ff9800;
+}
